@@ -11,6 +11,7 @@ text-align: center;
 }
 .menu-1{
 text-align: end;
+font-size: 300;
 }
 .logo-{
 text-align: center;
@@ -24,3 +25,31 @@ text-align: center;
 .lorem1{
 text-align: center;
 }
+.grid-container{
+    display: grid;
+    grid-template-columns: 350px 400px;
+    column-gap: 80px;
+    margin: 300px;
+    row-gap: 150px; 
+}
+
+.alumno1{
+    background-color: aqua;
+    outline: 6px solid black;
+}
+.alumno2{
+    background-color: yellowgreen;
+    outline: 6px solid black;
+}
+.alumno3{
+    background-color: coral;
+    outline: 6px solid black;
+}
+.alumno4{
+    background-color: lightpink;
+    outline: 6px solid black;
+}
+.titalumno{
+    text-align: center;
+}
+
