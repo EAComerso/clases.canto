@@ -53,3 +53,56 @@ text-align: center;
     text-align: center;
 }
 
+/*grid container*/
+.index grid-container{
+    display: grid;
+    grid-template-columns:  ;
+    grid-template-rows:  ;
+    grid-template-areas: 
+            "cabeza cabeza cabeza"
+            "pie pie pie"       
+    ;
+}
+
+/*declaraciones*/
+.cabeza{
+    grid-area: cabeza;
+}
+
+.galeria{
+     grid-area: galeria;
+}
+
+.pie{
+    grid-area: pie;
+}
+
+/* NAVBAR */
+header {
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    position: fixed;
+    height: 69px;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav img {
+    margin-left: 10px;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+li {
+    margin: 0 0.5em;
+    text-decoration: underline;
+}
+
