@@ -1,108 +1,99 @@
 .color{
-color: blue;
-text-align: center;
-}
-
-.info-contacto{
-text-align: center;
-}
-.info-contacto2{
-text-align: center;    
-}
-.menu-1{
-text-align: end;
-font-size: 300;
-}
-.logo-{
-text-align: center;
-}
-.video-{
-text-align: center;
-}
-.mapa-{
-text-align: center;
-}
-.lorem1{
-text-align: center;
-}
-.grid-container{
-    display: grid;
-    grid-template-columns: 350px 400px;
-    column-gap: 80px;
-    margin: 300px;
-    row-gap: 150px; 
-}
-
-.alumno1{
-    background-color: aqua;
-    outline: 6px solid black;
-}
-.alumno2{
-    background-color: yellowgreen;
-    outline: 6px solid black;
-}
-.alumno3{
-    background-color: coral;
-    outline: 6px solid black;
-}
-.alumno4{
-    background-color: lightpink;
-    outline: 6px solid black;
-}
-.titalumno{
+    color: blue;
     text-align: center;
-}
-
-/*grid container*/
-.index grid-container{
-    display: grid;
-    grid-template-columns:  ;
-    grid-template-rows:  ;
-    grid-template-areas: 
-            "cabeza cabeza cabeza"
-            "pie pie pie"       
-    ;
-}
-
-/*declaraciones*/
-.cabeza{
-    grid-area: cabeza;
-}
-
-.galeria{
-     grid-area: galeria;
-}
-
-.pie{
-    grid-area: pie;
-}
-
-/* NAVBAR */
-header {
-    border-bottom: 1px solid seashell;
-    width: 100%;
-    position: fixed;
-    height: 69px;
-    z-index: 1;
-    right: 0;
-    left: 0;
-    top: 0;
-}
-nav {
+    }
     
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-nav img {
-    margin-left: 10px;
-}
-ul {
-    list-style: none;
-    display: flex;
-}
-li {
-    margin: 0 0.5em;
-    text-decoration: underline;
-}
-
+    .info-contacto{
+    text-align: center;
+    }
+    .info-contacto2{
+    text-align: center;    
+    }
+    .menu-1{
+    text-align: end;
+    font-size: 300;
+    }
+    .logo-{
+    text-align: center;
+    }
+    .video-{
+    text-align: center;
+    }
+    .mapa-{
+    text-align: center;
+    }
+    .lorem1{
+    text-align: center;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: 350px 400px;
+        column-gap: 80px;
+        margin: 300px;
+        row-gap: 150px; 
+    }
+    
+    .alumno1{
+        background-color: aqua;
+        outline: 6px solid black;
+    }
+    .alumno2{
+        background-color: yellowgreen;
+        outline: 6px solid black;
+    }
+    .alumno3{
+        background-color: coral;
+        outline: 6px solid black;
+    }
+    .alumno4{
+        background-color: lightpink;
+        outline: 6px solid black;
+    }
+    .titalumno{
+        text-align: center;
+    }
+    
+    
+    
+    /*declaraciones*/
+    .cabeza{
+        grid-area: cabeza;
+    }
+    
+    .galeria{
+         grid-area: galeria;
+    }
+    
+    .pie{
+        grid-area: pie;
+    }
+    
+    /* NAVBAR */
+    header {
+        width: 100%;
+        position: fixed;
+        height: 69px;
+        z-index: 1;
+        right: 0;
+        left: 0;
+        top: 0;
+    }
+    nav {
+        
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    nav img {
+        margin-left: 10px;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+    }
+    li {
+        margin: 0 0.5em;
+        text-decoration: underline;
+    }
+    
+    
