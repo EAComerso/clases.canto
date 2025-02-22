@@ -34,20 +34,25 @@
     }
     
     .alumno1{
-        background-color: aqua;
+        background-color: #570a0d97;
         outline: 6px solid black;
+        color:white  ;
+        
     }
     .alumno2{
-        background-color: yellowgreen;
+        background-color: #570a0d97;
         outline: 6px solid black;
+        color:white  ;
     }
     .alumno3{
-        background-color: coral;
+        background-color: #570a0d97;
         outline: 6px solid black;
+        color:white  ;
     }
     .alumno4{
-        background-color: lightpink;
+        background-color: #570a0d97;
         outline: 6px solid black;
+        color:white  ;
     }
     .titalumno{
         text-align: center;
