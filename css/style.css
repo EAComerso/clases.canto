@@ -25,6 +25,10 @@
     .lorem1{
     text-align: center;
     }
+
+
+    /*MIS ALUMNOS*/
+
     .grid-container{
         display: grid;
         grid-template-columns: 350px 400px;
@@ -56,9 +60,10 @@
     }
     .titalumno{
         text-align: center;
+        color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     }
-    
-    
+     
     
     /*declaraciones*/
     .cabeza{
@@ -73,8 +78,18 @@
         grid-area: pie;
     }
     
-    /* NAVBAR */
-    header {
+@container (width < 50%){
+    ..grid-container
+    display: grid: ;
+    grid-auto-rows: ;
+  
+}
+
+    
+    
+    
+    /* INDEX */
+    .menu-index {
         width: 100%;
         position: fixed;
         height: 69px;
@@ -83,6 +98,13 @@
         left: 0;
         top: 0;
     }
+
+
+
+
+
+
+
     nav {
         
         display: flex;
