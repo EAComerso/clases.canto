@@ -79,7 +79,7 @@
     }
     
 @container (width < 50%){
-    ..grid-container
+    .grid-container
     display: grid: ;
     grid-auto-rows: ;
   
