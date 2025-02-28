@@ -29,20 +29,19 @@
 
     /*MIS ALUMNOS*/
 
-    .grid-container{
+    .misalumnos{
         display: grid;
         grid-template-columns: 350px 400px;
         column-gap: 80px;
         margin: 300px;
         row-gap: 150px; 
-
     }
     
     .alumno1{
         background-color: #570a0d97;
         outline: 6px solid black;
         color:white  ;
-        
+       
     }
     .alumno2{
         background-color: #570a0d97;
@@ -127,5 +126,17 @@
         margin: 0 0.5em;
         text-decoration: underline;
     }
-    
-    
+/*footer*/
+a{
+    text-decoration: none;
+    font-size: 17px;
+}
+p{
+    font-size: 17px;
+}
+a:hover {
+    color:#0D6EFD !important
+}
+i {
+    font-size: 25px;
+}
