@@ -1,3 +1,20 @@
+/*Configuracion de logo en navbar*/
+
+.navbar-logo {
+    height: 50px; /* Ajusta este valor según el tamaño deseado del logo */
+    max-width: 200px; /* Ajusta este valor según el ancho máximo deseado */
+    object-fit: contain; /* Asegura que la imagen se ajuste al contenedor sin deformarse */
+}
+
+.navbar-brand {
+    display: flex; /* Utiliza flexbox para alinear la imagen verticalmente */
+    align-items: center; /* Centra la imagen verticalmente */
+}
+.navbar {
+  background-color: #0a2435; /* Cambia este código de color al que prefieras */
+}
+
+
 /* Estilos generales */
 body {
   font-family: 'Arial', sans-serif;
@@ -16,7 +33,7 @@ a:hover {
 
 /* Estilos de la sección principal */
 .seccion1 {
-  background-image: url("/assets/seccion1fondo.webp");
+  background-image: url("assets/seccion1fondo.webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
